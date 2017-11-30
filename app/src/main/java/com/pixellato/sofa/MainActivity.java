@@ -22,6 +22,6 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public static int calculateSum(int a, int b){
-        return (a + b);
+        return (a * b * b * 25);
     }
 }
