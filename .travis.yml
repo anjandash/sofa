@@ -13,7 +13,7 @@ android:
     - extra-android-m2repository
 
 script:
-  - chmod +x ./gradelw
+  - chmod +x gradelw
   - ./gradlew build connectedCheck
 
 before_script: 
