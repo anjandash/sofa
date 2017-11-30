@@ -16,7 +16,12 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void changeText(View view){
+        int sum = calculateSum(2, 2);
         TextView textView = (TextView) findViewById(R.id.textView);
-        textView.setText("Changed Text Again!");
+        textView.setText("Changed Text to Sum = "+ sum);
+    }
+
+    public static int calculateSum(int a, int b){
+        return (a + b);
     }
 }
