@@ -13,7 +13,8 @@ android:
     - extra-android-m2repository
 
 script:
-  - ./gradlew build test
+  - ./gradlew build
+  - ./gradlew test
 
 before_script: 
   - chmod +x gradlew   
